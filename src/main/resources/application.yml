@@ -1,0 +1,26 @@
+server:
+  port: 9005
+  servlet:
+    context-path: /common
+#eureka:client:service-url:defaultZone: http://localhost:8761/eureka
+spring:
+  application:
+    name: common-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/tramhuong
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect
+amazonProperties:
+  endpointUrl: https://s3.us-east-2.amazonaws.com
+  accessKey: AKIATNXTD35D4WU2TPZD
+  secretKey: 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
+  bucketName: app-tram-huong
+pathlocal:
+  product:
+    image: C:\Users\HLC_2021\Documents\Image_Product
