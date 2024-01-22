@@ -69,7 +69,10 @@
             <version>30.0-android</version>
             <scope>compile</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.google.common/google-collect -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
 <!--        <dependency>-->
 <!--            <groupId>com.google.common</groupId>-->
 <!--            <artifactId>google-collect</artifactId>-->
